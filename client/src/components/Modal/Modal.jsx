@@ -22,10 +22,147 @@ const Modal = (props) => {
       console.log('btn');
       console.log(answer);
       console.log(game1[0].answer);
-      // dispatch({
-      //   type: 'INPUT_CLEAR',
-      //   payload: {},
-      // });
+    }
+
+    if (answer === game1[1].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game1[1].answer);
+    }
+
+    if (answer === game1[2].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game1[2].answer);
+    }
+
+    if (answer === game1[3].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game1[3].answer);
+    }
+
+    // ----------
+
+    if (answer === game2[0].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game2[0].answer);
+    }
+
+    if (answer === game2[1].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game2[1].answer);
+    }
+
+    if (answer === game2[2].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game2[2].answer);
+    }
+
+    if (answer === game2[3].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game2[3].answer);
+    }
+
+    // ----------
+
+    if (answer === game3[0].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game3[0].answer);
+    }
+
+    if (answer === game3[1].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game3[1].answer);
+    }
+
+    if (answer === game3[2].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game3[2].answer);
+    }
+
+    if (answer === game3[3].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game3[3].answer);
+    }
+
+    // ------------
+
+    if (answer === game4[0].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game4[0].answer);
+    }
+
+    if (answer === game4[1].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game4[1].answer);
+    }
+
+    if (answer === game4[2].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game4[2].answer);
+    }
+
+    if (answer === game4[3].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game4[3].answer);
+    }
+
+    // ------------
+
+    if (answer === game5[0].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game5[0].answer);
+    }
+
+    if (answer === game5[1].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game5[1].answer);
+    }
+
+    if (answer === game5[2].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game5[2].answer);
+    }
+
+    if (answer === game5[3].answer) {
+      setRigth(true);
+      console.log('btn');
+      console.log(answer);
+      console.log(game5[3].answer);
     }
 
     // dispatch({
@@ -64,7 +201,9 @@ const Modal = (props) => {
             type="text"
             placeholder="Ваш ответ"
           />
-          <button onClick={check} />
+          <button className="btn-hide" onClick={check}>
+            отправить
+          </button>
           <div>{rigth && <p>Ответ правильный</p>}</div>
         </div>
       </div>

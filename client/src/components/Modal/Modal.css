@@ -56,5 +56,10 @@
 }
 
 .btn-hide {
-  display: none;
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
 }
+
+
